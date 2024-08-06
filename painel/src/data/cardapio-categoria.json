@@ -1,0 +1,20 @@
+[
+    {
+        "nome": "Hamburgueres",
+        "ativo": true,
+        "id": 1,
+        "foto": "665e0cb842b44.webp"
+    },
+    {
+        "nome": "Sobremesas",
+        "ativo": true,
+        "id": 2,
+        "foto": "665e0c7ae6d9e.webp"
+    },
+    {
+        "nome": "Pratos Executivos",
+        "ativo": true,
+        "id": 3,
+        "foto": "665e0c3962052.webp"
+    }
+]

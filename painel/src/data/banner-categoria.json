@@ -1,0 +1,12 @@
+[
+    {
+        "nome": "Celular",
+        "ativo": true,
+        "id": 1
+    },
+    {
+        "nome": "Desktop",
+        "ativo": true,
+        "id": 2
+    }
+]

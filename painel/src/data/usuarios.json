@@ -1,0 +1,32 @@
+{
+    "1": {
+        "nome_completo": "normal",
+        "usuario": "normal",
+        "senha": "$2y$10$7CWy5XPBZBqewilJpMy4i.uyFUTTfmgEKw6EdeYaUobJdjFyImM3.",
+        "telefone": "5454545454545",
+        "email_institucional": "123@gmail",
+        "data_cadastro": "02-05-2024",
+        "ativo": true,
+        "tipo": "normal"
+    },
+    "2": {
+        "nome_completo": "larissa.rocha",
+        "usuario": "larissa",
+        "senha": "$2y$10$3gLxS3go.hT8QERpoAXFGuXfFe1HDMOLsQlcke96L8whvDquFZSf.",
+        "telefone": "9999999999",
+        "email_institucional": "b35.larissa@gmail.com",
+        "data_cadastro": "03-05-2024",
+        "ativo": true,
+        "tipo": "admin"
+    },
+    "3": {
+        "nome_completo": "larissa.rocha",
+        "usuario": "duna.support",
+        "senha": "$2y$10$5ubRb5gUdkXdXuf1uylUiO8cmJkw6iZWjWUDka8awXkm9qQ52NVeK",
+        "telefone": "9999999999",
+        "email_institucional": "123@gmail",
+        "data_cadastro": "03-05-2024",
+        "ativo": true,
+        "tipo": "dev"
+    }
+}

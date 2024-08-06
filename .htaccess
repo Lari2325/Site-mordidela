@@ -1,0 +1,12 @@
+RewriteEngine On
+
+RewriteBase /site-mordidela/
+
+RewriteCond %{REQUEST_URI} ^/site-mordidela/src/Pages/Home/$
+RewriteRule ^(.*)$ /site-mordidela/ [R=301,L]
+
+RewriteRule ^$ src/Pages/Home/index.php [L]
+RewriteRule ^sobre-nos$ src/Pages/Sobre/index.php [L]
+RewriteRule ^cardapio$ src/Pages/Cardapio/index.php [L]
+
+RewriteRule ^sitemap\.xml$ sitemap.php [L]

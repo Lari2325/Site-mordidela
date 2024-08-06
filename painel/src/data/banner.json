@@ -1,0 +1,26 @@
+[
+    {
+        "imagem": "6669a154af659.png",
+        "tipo": "Celular",
+        "ativo": true,
+        "id": 1
+    },
+    {
+        "imagem": "6669a15a7a919.png",
+        "tipo": "Desktop",
+        "ativo": true,
+        "id": 2
+    },
+    {
+        "imagem": "6669a181570b4.png",
+        "tipo": "Celular",
+        "ativo": true,
+        "id": 3
+    },
+    {
+        "imagem": "6669a185ca2aa.png",
+        "tipo": "Desktop",
+        "ativo": true,
+        "id": 4
+    }
+]

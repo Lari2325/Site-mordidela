@@ -1,0 +1,134 @@
+{
+    "1": {
+        "label": "Estabelecimentos",
+        "nome": "estabelecimentos",
+        "arquivo": "estabelecimentos.json",
+        "campos": [
+            {
+                "nome": "nome",
+                "label": "nome",
+                "tipo": "input"
+            },
+            {
+                "nome": "cep",
+                "label": "cep",
+                "tipo": "input"
+            },
+            {
+                "nome": "latitude",
+                "label": "latitude",
+                "tipo": "input"
+            },
+            {
+                "nome": "longitude",
+                "label": "longitude",
+                "tipo": "input"
+            },
+            {
+                "nome": "telefone",
+                "label": "telefone",
+                "tipo": "input"
+            },
+            {
+                "nome": "whatsapp",
+                "label": "whatsapp",
+                "tipo": "input"
+            },
+            {
+                "nome": "rua",
+                "label": "rua",
+                "tipo": "input"
+            },
+            {
+                "nome": "cidadeuf",
+                "label": "cidadeuf",
+                "tipo": "input"
+            },
+            {
+                "nome": "ifood",
+                "label": "ifood",
+                "tipo": "input"
+            }
+        ],
+        "data_cadastro": "31-05-2024",
+        "ativo": true
+    },
+    "2": {
+        "label": "Card\u00e1pio categoria",
+        "nome": "cardapio-categoria",
+        "arquivo": "cardapio-categoria.json",
+        "campos": [
+            {
+                "nome": "nome",
+                "label": "Nome",
+                "tipo": "input"
+            },
+            {
+                "nome": "foto",
+                "label": "Foto",
+                "tipo": "documento"
+            }
+        ],
+        "data_cadastro": "03-06-2024",
+        "ativo": true
+    },
+    "3": {
+        "label": "Card\u00e1pio",
+        "nome": "cardapio",
+        "arquivo": "cardapio.json",
+        "campos": [
+            {
+                "nome": "categoria",
+                "label": "Categoria",
+                "tipo": "select",
+                "menu_concatenar": "cardapio-categoria"
+            },
+            {
+                "nome": "nome",
+                "label": "Nome",
+                "tipo": "input"
+            },
+            {
+                "nome": "descricao",
+                "label": "DESCRI\u00c7\u00c3O",
+                "tipo": "textarea"
+            }
+        ],
+        "data_cadastro": "03-06-2024",
+        "ativo": true
+    },
+    "4": {
+        "label": "Banner",
+        "nome": "banner",
+        "arquivo": "banner.json",
+        "campos": [
+            {
+                "nome": "imagem",
+                "label": "Imagem",
+                "tipo": "documento"
+            },
+            {
+                "nome": "tipo",
+                "label": "Tipo",
+                "tipo": "select",
+                "menu_concatenar": "banner-categoria"
+            }
+        ],
+        "data_cadastro": "12-06-2024",
+        "ativo": true
+    },
+    "5": {
+        "label": "Banner categoria",
+        "nome": "banner-categoria",
+        "arquivo": "banner-categoria.json",
+        "campos": [
+            {
+                "nome": "nome",
+                "label": "nome",
+                "tipo": "input"
+            }
+        ],
+        "data_cadastro": "12-06-2024",
+        "ativo": true
+    }
+}

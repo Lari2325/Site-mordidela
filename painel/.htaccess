@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+
+# Bloquear acesso direto aos arquivos .json
+RewriteCond %{REQUEST_FILENAME} \.json$
+RewriteRule ^ - [F,L]
